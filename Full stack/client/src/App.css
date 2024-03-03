@@ -1,0 +1,127 @@
+/* app.css */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color:#fefae0;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color:white;
+  padding: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 140px;
+  padding: 80px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #283618;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+tr:hover {
+  background-color: #606c38; 
+  color: white; 
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.prev, .next{
+  height: 2rem;
+  width: 7rem;
+  font-size: large;
+  background-color: #bc6c25;
+  border-radius: 2rem;
+  color:white;
+  font-weight: bolder;
+  border: 1px solid white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.prev:hover{
+  height: 3rem;
+  width: 9rem;
+}
+.next:hover{
+  height: 3rem;
+  width: 9rem;
+}
+.info p{
+  font-weight: bolder;
+  font-size: larger;
+  color: #283618;
+}
+.info input{
+  width: 20rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid #dda15e;
+  padding: 5px;
+}
+
+.sortbtns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sort_time, .sort_date{
+  height: 2rem;
+  width: 11rem;
+  font-size: large;
+  background-color:#bc6c25;
+  border-radius: 2rem;
+  color:white;
+  font-weight: bolder;
+  border: 1px solid white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.sort_time:hover{
+  height: 3rem;
+  width: 13rem;
+}
+.sort_date:hover{
+  height: 3rem;
+  width: 13rem;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: #283618;
+}
